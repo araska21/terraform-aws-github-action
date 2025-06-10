@@ -16,7 +16,7 @@ terraform {
 }
 
 provider "aws" {
-  region = var.region
+  region = "ap-northeast-2"
   default_tags {
     tags = {
       name        = "${var.prefix}-vpc-${var.region}"
